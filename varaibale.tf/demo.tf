@@ -23,6 +23,5 @@ output "ll" {
 }
 
 output "a" {
-    value = "var.sagar[0],i m var.sagar[1]"
-  
+    value = "${var.sagar[0]}, i m ${var.sagar[1]}"
 }

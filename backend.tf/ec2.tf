@@ -4,7 +4,7 @@ resource "aws_instance" "ec2" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "terr-1"
   }
 }
 output "ip" {

@@ -1,5 +1,5 @@
 variable "prem" {
-    default = sarja
+    default = "sarja"
 
 }
 

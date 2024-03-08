@@ -7,3 +7,21 @@ output "kk" {
     value = var.prem
   
 }
+
+variable "prem" {
+    default = [
+        "hello",
+         1000,
+         true,
+         "world"    
+    ]
+  
+}
+
+output "ll" {
+    value = var.prem
+}
+
+
+  
+}

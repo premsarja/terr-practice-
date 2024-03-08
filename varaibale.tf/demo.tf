@@ -22,4 +22,7 @@ output "ll" {
     value = var.sagar
 }
 
-
+output "a" {
+    value = "var.sagar[0],i m var.sagar[1]"
+  
+}

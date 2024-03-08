@@ -8,7 +8,7 @@ output "kk" {
   
 }
 
-variable "prem" {
+variable "sagar" {
     default = [
         "hello",
          1000,
@@ -19,7 +19,7 @@ variable "prem" {
 }
 
 output "ll" {
-    value = var.prem
+    value = var.sagar
 }
 
 

@@ -24,3 +24,6 @@ resource "aws_security_group" "sagar" {
   }
 }
 
+output "sgid" {
+  value= aws_security_group.sagar.id
+}

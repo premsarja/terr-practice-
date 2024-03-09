@@ -1,6 +1,6 @@
 module "ec2" {
   source = "./ec2"
-  prem = module.sg.sgid
+  pre = module.sg.sgid
 }
 
 module "sg" {
